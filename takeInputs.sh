@@ -8,4 +8,6 @@ result2=$(( (a*b) + c ))
 
 result3=$(( c + (a/b) ))
 
-echo $result1 $result2 $result3
+result4=$(( (a%b) + c))
+
+echo $result1 $result2 $result3 $result4
