@@ -3,5 +3,9 @@
  read -p "Please enter 2nd numbers:" b 
  read -p "Please enter 3rd numbers:" c
 result1=$(( a + (b * c) ))
+
 result2=$(( (a*b) + c ))
-echo $result1 $result2
+
+result3=$(( c + (a/b) ))
+
+echo $result1 $result2 $result3
